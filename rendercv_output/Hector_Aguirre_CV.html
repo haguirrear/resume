@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Hector Aguirre's CV
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <h1>Hector Aguirre's CV</h1>
+        <ul>
+        <li>Phone: +51 979 277 722</li>
+        <li>Email: <a href="mailto:hector.aguirre.arista@gmail.com">hector.aguirre.arista@gmail.com</a></li>
+        <li>Location: Lima, Peru</li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/haguirrear">haguirrear</a></li>
+        </ul>
+        <h1>Summary</h1>
+        <p>Software Engineer with 7 years of experience in software development and over 2 years of experience leading teams of developers across LATAM. I love new challenges and I am an inquisitive individual, always eager to learn new things with exceptional problem-solving skills. I have extensive experience with Golang, Python, Javascript, Typescript, IaC (Terraform, CDK, SST), cloud providers (AWS, GCP), different types of databases (SQL, DynamoDB, ElasticSearch), CI/CD Pipelines, and test automation.</p>
+        <h1>Experience</h1>
+        <h2>Globant - Disney (ABC News), Software Architecth, Golang</h2>
+        <ul>
+        <li>Mar 2024 – present</li>
+        <li>Led a project to implement real-time push notifications for the ABC News Mobile App for the USA 2024 elections, utilizing Golang, AWS (Lambdas, SQS, SNS), and Braze.</li>
+        <li>Created a new service to adopt the Disney Plus Video Player into all the other Disney brands (ABC News, ABC, Natgeo). This service integrated several CMSs and orchestrated the SSAI (Server-Side Ad Insertion). It was written in Go and deployed in AWS Using CDK and ECS.</li>
+        <li>Created lambdas to gather metrics such as how long it takes to publish a new story and made a custom Grafana dashboard with those.</li>
+        <li>Added the ability to replace the Homepage of the OTV (Owned TV Brands) of Disney with a "Breaking News" or a custom event. This involved creating a new type of object in the CMS, adding an endpoint in our distribution service to serve it and adding support for it in the backend of the ABC News mobile app.</li>
+        <li>Rewrote services from Java and Groovity (Disney’s custom language based on Groovy) into Golang, deploying them using ECS and CDK.</li>
+        </ul>
+        <h2>Crehana, Tech Lead</h2>
+        <ul>
+        <li>Nov 2021 – Mar 2024</li>
+        <li>Created a configurable Single Sign-On (SSO) implementation with Identity Provider and Service Provider supporting SAML2 and OAuth2 using Python and FastAPI, deployed in Kubernetes.</li>
+        <li>Developed an event-based distributed system to synchronize user and admin configurations across three applications using Python, SQS, SNS, Lambdas, and Step Functions.</li>
+        <li>Integrated with Moodle LMS using an event-driven architecture to send progress updates and synchronize courses from Crehana, leveraging Python, SQS, SNS, Lambdas, and Step Functions.</li>
+        <li>Implemented a content search feature for locating third-party partner content with SSO-powered links and event-driven progress synchronization, utilizing Python, Elasticsearch, SQS, SNS, and Lambdas.</li>
+        <li>Developed a public REST API for personalized client integrations using Golang, Docker, and Kubernetes.</li>
+        <li>Created several microservices to expose GraphQL APIs for the frontend web client using Python and FastAPI.</li>
+        <li>Migrated a custom GraphQL proxy to Apollo Federation for schema aggregation, enhancing API performance and scalability.</li>
+        <li>Set up new microservices and projects, including CI/CD pipelines with automated testing, linting, and deployment using GitLab CI.</li>
+        <li>Led a team of five developers, providing constructive feedback and supporting the professional development of each team member.</li>
+        </ul>
+        <h2>Crehana, Backend Engineer</h2>
+        <ul>
+        <li>Aug 2021 – Nov 2021</li>
+        <li>Developed an integration with SAP Success Factors (LMS) using an event-driven architecture to synchronize courses and progress information. Leveraged Python, AWS Lambda, SQS, SNS, API Gateway, and Terraform for the implementation.</li>
+        <li>Designed and implemented GraphQL APIs using Python frameworks including Flask, FastAPI, and Django, enhancing data access and flexibility for applications.</li>
+        </ul>
+        <h2>MINSA (Peru’s Ministry of Health), Backend Engineer (Consultant)</h2>
+        <ul>
+        <li>June 2021 – Aug 2021</li>
+        <li>Contributed to MINSA's "Teleatiendo" virtual healthcare app, enabling patients to make medical appointments and doctors to upload prescriptions.</li>
+        <li>Implemented a feature allowing doctors to sign medical prescriptions and orders using electronic identity cards.</li>
+        <li>Utilized Python, PostgreSQL, and Nginx for backend development.</li>
+        <li>Employed Vanilla JavaScript for client-side implementation.</li>
+        <li>Built the application using Django (Python) and PostgreSQL, deployed on MINSA’s on-premises servers.</li>
+        </ul>
+        <h2>La Positiva - Digital Transformation Lab, Backend Engineer</h2>
+        <ul>
+        <li>Mar 2021 – July 2021</li>
+        <li>Developed backend features for the "Mobility" mobile app using Django (Python) and AWS.</li>
+        <li>Implemented a feature for brokers to calculate insurance quotations.</li>
+        <li>Automated the process of selling car insurance via the mobile app.</li>
+        </ul>
+        <h2>German Corporation for International Cooperation GmbH (GIZ), Fullstack Developer (Consultant)</h2>
+        <ul>
+        <li>Dec 2020 – Mar 2021</li>
+        <li>Worked with GIZ, a German development agency, on a project to develop a Mobile Training Application about COVID-19 for MINSA (Peru’s Ministry of Health).</li>
+        <li>Developed and deployed the backend for the application using Python and FastAPI.</li>
+        <li>Utilized AWS for deployment with Docker containers, Nginx as a proxy, and PostgreSQL as the database.</li>
+        <li>Developed the mobile application using Flutter.</li>
+        <li>Implemented synchronization and caching techniques to ensure offline functionality, catering to medical staff in the jungle's native communities.</li>
+        <li>Contributed to training and informing medical staff on managing the COVID-19 pandemic in native communities.</li>
+        </ul>
+        <h2>Simple Peru, Backend Developer</h2>
+        <ul>
+        <li>Dec 2019 – Feb 2021</li>
+        <li>Engineered robust REST APIs using Python, Flask, and PostgreSQL for custom Leasing Systems.</li>
+        <li>Designed and developed a mobile app for Android and iOS with Flutter, facilitating spot reservations in businesses during the COVID-19 pandemic, improving user safety and business compliance.</li>
+        <li>Led the deployment and architectural design of backend solutions, ensuring scalability and performance.</li>
+        <li>Implemented Docker and AWS cloud services for seamless deployment and efficient infrastructure management.</li>
+        </ul>
+        <h2>American Glass Products (AGP), Trainee Supplier Development Engineer</h2>
+        <ul>
+        <li>Feb 2019 – July 2019</li>
+        <li>Worked at AGP, a leading manufacturer of laminated glass for top automotive companies including Tesla, McLaren, Volkswagen, and BMW.</li>
+        <li>Leveraged Business Intelligence skills using Power BI to provide actionable insights and drive data-informed decisions.</li>
+        <li>Developed and implemented automation apps using Microsoft Power Apps and Flow, streamlining and optimizing internal processes for increased productivity and efficiency.</li>
+        </ul>
+        <h2>Pontifical Catholic University of Peru (PUCP), Trainee in the Experimental Economics Laboratory</h2>
+        <ul>
+        <li>Apr 2018 – Dec 2018</li>
+        <li>Worked at the Experimental Economics Laboratory (LEEX), conducting experiments on decision-making research.</li>
+        <li>Programmed experimental games using Python, facilitating data collection and analysis.</li>
+        <li>Gained experience in managing web pages and servers using Amazon Web Services (AWS), ensuring reliable and scalable experiment deployment.</li>
+        </ul>
+        <h2>Novatronic, Trainee Developer</h2>
+        <ul>
+        <li>Jan 2017 – July 2017</li>
+        <li>Developed programs for managing financial transactions using C.</li>
+        <li>Develop a native Windows app using C#, and SQL to manage financial transactions.</li>
+        </ul>
+        <h1>Education</h1>
+        <h2>Pontifical Catholic University of Peru (PUCP), Bachelor in Mechatronics Engineer</h2>
+        <ul>
+        <li>Mar 2013 – Dec 2018</li>
+        <li>Peru</li>
+        </ul>
+        <h2>Universität Duisburg-Essen, Exchange Program in Elektrotechnik und Informationstechnik</h2>
+        <ul>
+        <li>June 2017 – Mar 2018</li>
+        <li>Germany</li>
+        </ul>
+        <h1>Skills</h1>
+        <ul>
+        <li><strong>Go:</strong> Web Apps and CLI utilities</li>
+        <li><strong>Python:</strong> REST and GraphQL APIs (Flask, FastAPI, Django)</li>
+        <li><strong>Javascript/Typescript:</strong> Rest APIs using Nodejs and frontend development using React and Solid</li>
+        <li><strong>C:</strong> APIs and embedded systems </li>
+        <li><strong>Dart:</strong> Mobile apps with Flutter</li>
+        <li><strong>Terraform:</strong> Deploy services using IaC</li>
+        <li><strong>SQL:</strong> PostgreSQL, MySQL</li>
+        <li><strong>Docker:</strong> Deployment of containerized apps</li>
+        <li><strong>AWS:</strong> Design architecture using ECR, ECS, EC2, SQS, SNS, Lambdas, Step Functions, Api Gateways, etc</li>
+        <li><strong>ElasticSearch:</strong> Indexing content and making custom search features</li>
+        <li><strong>Redis:</strong> Cache and session management</li>
+        <li><strong>Gitlab CI:</strong> Linting, testing, and deployments</li>
+        </ul>
+        <h1>Languages</h1>
+        <ul>
+        <li><strong>English</strong>: Advanced</li>
+        <li><strong>Spanish</strong>: Native Speaker</li>
+        <li><strong>German</strong>: Intermediate</li>
+        </ul>
+        <h1>Awards</h1>
+        <h2>1st place on the 5th Hackathon organized by the National Sociaty of Mining, Oil and Energy (Peru)</h2>
+        <ul>
+        <li>June 2019</li>
+        <li>Distributed system for real-time air quality monitoring and early warnings for critical events.</li>
+        </ul>
+    </article>
+</body>
+
+</html>

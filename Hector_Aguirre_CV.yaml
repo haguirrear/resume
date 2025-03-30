@@ -1,0 +1,172 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/heads/main/schema.json
+
+cv:
+  name: Hector Aguirre
+  location: Lima, Peru
+  email: hector.aguirre.arista@gmail.com
+  phone: tel:+51979277722
+  # website: https://yourwebsite.com/
+  social_networks:
+    - network: LinkedIn
+      username: haguirrear
+    # - network: GitHub
+    #   username: haguirrear
+  sections:
+    summary:
+      - Software Engineer with 7+ years' experience in software development and over 2 years of experience leading teams of developers across LATAM. I love new challenges and I am an inquisitive individual, always eager to learn new things with exceptional problem-solving skills. I have extensive experience with Golang, Python, Javascript, Typescript, IaC (Terraform, CDK, SST), cloud providers (AWS, GCP), different types of databases (SQL, DynamoDB, ElasticSearch), CI/CD Pipelines, and test automation.
+    experience:
+      - company: Globant - Disney (ABC News)
+        position: Software Architecth, Golang
+        start_date: 2024-03
+        end_date: "present"
+        highlights:
+          - Led a project to implement real-time push notifications for the ABC News Mobile App for the USA 2024 elections, utilizing Golang, AWS (Lambdas, SQS, SNS), and Braze.
+          - Created a new service to adopt the Disney Plus Video Player into all the other Disney brands (ABC News, ABC, Natgeo). This service integrated several CMSs and orchestrated the SSAI (Server-Side Ad Insertion). It was written in Go and deployed in AWS Using CDK and ECS.
+          - Created lambdas to gather metrics such as how long it takes to publish a new story and made a custom Grafana dashboard with those.
+          - Added the ability to replace the Homepage of the OTV (Owned TV Brands) of Disney with a "Breaking News" or a custom event. This involved creating a new type of object in the CMS, adding an endpoint in our distribution service to serve it and adding support for it in the backend of the ABC News mobile app.
+          - Rewrote services from Java and Groovity (Disney’s custom language based on Groovy) into Golang, deploying them using ECS and CDK.
+      - company: Crehana
+        position: Tech Lead
+        start_date: 2021-11
+        end_date: 2024-03
+        highlights:
+          - Created a configurable Single Sign-On (SSO) implementation with Identity Provider and Service Provider supporting SAML2 and OAuth2 using Python and FastAPI, deployed in Kubernetes.
+          - Developed an event-based distributed system to synchronize user and admin configurations across three applications using Python, SQS, SNS, Lambdas, and Step Functions.
+          - Integrated with Moodle LMS using an event-driven architecture to send progress updates and synchronize courses from Crehana, leveraging Python, SQS, SNS, Lambdas, and Step Functions.
+          - Implemented a content search feature for locating third-party partner content with SSO-powered links and event-driven progress synchronization, utilizing Python, Elasticsearch, SQS, SNS, and Lambdas.
+          - Developed a public REST API for personalized client integrations using Golang, Docker, and Kubernetes.
+          - Created several microservices to expose GraphQL APIs for the frontend web client using Python and FastAPI.
+          - Migrated a custom GraphQL proxy to Apollo Federation for schema aggregation, enhancing API performance and scalability.
+          - Set up new microservices and projects, including CI/CD pipelines with automated testing, linting, and deployment using GitLab CI.
+          - Led a team of five developers, providing constructive feedback and supporting the professional development of each team member.
+      - company: Crehana
+        position: Backend Engineer
+        start_date: 2021-08
+        end_date: 2021-11
+        highlights:
+          - Developed an integration with SAP Success Factors (LMS) using an event-driven architecture to synchronize courses and progress information. Leveraged Python, AWS Lambda, SQS, SNS, API Gateway, and Terraform for the implementation.
+          - Designed and implemented GraphQL APIs using Python frameworks including Flask, FastAPI, and Django, enhancing data access and flexibility for applications.
+      - company: MINSA (Peru’s Ministry of Health)
+        position: Backend Engineer (Consultant)
+        start_date: 2021-06
+        end_date: 2021-08
+        highlights:
+          - Contributed to MINSA's "Teleatiendo" virtual healthcare app, enabling patients to make medical appointments and doctors to upload prescriptions.
+          - Implemented a feature allowing doctors to sign medical prescriptions and orders using electronic identity cards.
+          - Utilized Python, PostgreSQL, and Nginx for backend development.
+          - Employed Vanilla JavaScript for client-side implementation.
+          - Built the application using Django (Python) and PostgreSQL, deployed on MINSA’s on-premises servers.
+      - company: La Positiva - Digital Transformation Lab
+        position: Backend Engineer
+        start_date: 2021-03
+        end_date: 2021-07
+        highlights:
+          - Developed backend features for the "Mobility" mobile app using Django (Python) and AWS.
+          - Implemented a feature for brokers to calculate insurance quotations.
+          - Automated the process of selling car insurance via the mobile app.
+      - company: German Corporation for International Cooperation GmbH (GIZ)
+        position: Fullstack Developer (Consultant)
+        start_date: 2020-12
+        end_date: 2021-03
+        highlights:
+          - Worked with GIZ, a German development agency, on a project to develop a Mobile Training Application about COVID-19 for MINSA (Peru’s Ministry of Health).
+          - Developed and deployed the backend for the application using Python and FastAPI.
+          - Utilized AWS for deployment with Docker containers, Nginx as a proxy, and PostgreSQL as the database.
+          - Developed the mobile application using Flutter.
+          - Implemented synchronization and caching techniques to ensure offline functionality, catering to medical staff in the jungle's native communities.
+          - Contributed to training and informing medical staff on managing the COVID-19 pandemic in native communities.
+      - company: Simple Peru
+        position: Backend Developer
+        start_date: 2019-12
+        end_date: 2021-02
+        highlights:
+          - Engineered robust REST APIs using Python, Flask, and PostgreSQL for custom Leasing Systems.
+          - Designed and developed a mobile app for Android and iOS with Flutter, facilitating spot reservations in businesses during the COVID-19 pandemic, improving user safety and business compliance.
+          - Led the deployment and architectural design of backend solutions, ensuring scalability and performance.
+          - Implemented Docker and AWS cloud services for seamless deployment and efficient infrastructure management.
+      - company: American Glass Products (AGP)
+        position: Trainee Supplier Development Engineer
+        start_date: 2019-02
+        end_date: 2019-07
+        highlights:
+          - Worked at AGP, a leading manufacturer of laminated glass for top automotive companies including Tesla, McLaren, Volkswagen, and BMW.
+          # - Managed and developed supplier relationships, ensuring quality and efficiency in the supply chain.
+          - Leveraged Business Intelligence skills using Power BI to provide actionable insights and drive data-informed decisions.
+          - Developed and implemented automation apps using Microsoft Power Apps and Flow, streamlining and optimizing internal processes for increased productivity and efficiency.
+      - company: Pontifical Catholic University of Peru (PUCP)
+        position: Trainee in the Experimental Economics Laboratory
+        start_date: 2018-04
+        end_date: 2018-12
+        highlights:
+          - Worked at the Experimental Economics Laboratory (LEEX), conducting experiments on decision-making research.
+          - Programmed experimental games using Python, facilitating data collection and analysis.
+          - Gained experience in managing web pages and servers using Amazon Web Services (AWS), ensuring reliable and scalable experiment deployment.
+      - company: Novatronic
+        position: Trainee Developer
+        start_date: 2017-01
+        end_date: 2017-07
+        highlights:
+          - Developed programs for managing financial transactions using C.
+          - Develop a native Windows app using C#, and SQL to manage financial transactions.
+    education:
+      - institution: Pontifical Catholic University of Peru (PUCP)
+        area: Mechatronics Engineer
+        location: Peru
+        degree: Bachelor
+        start_date: 2013-03
+        end_date: 2018-12
+      - institution: Universität Duisburg-Essen
+        area: Elektrotechnik und Informationstechnik
+        location: Germany
+        degree: Exchange Program
+        start_date: 2017-06
+        end_date: 2018-03
+    skills:
+      - bullet: "**Go:** Web Apps and CLI utilities"
+      - bullet: "**Python:** REST and GraphQL APIs (Flask, FastAPI, Django)"
+      - bullet: "**Javascript/Typescript:** Rest APIs using Nodejs and frontend development using React and Solid"
+      - bullet: "**C:** APIs and embedded systems "
+      - bullet: "**Dart:** Mobile apps with Flutter"
+      - bullet: "**Terraform:** Deploy services using IaC"
+      - bullet: "**SQL:** PostgreSQL, MySQL"
+      - bullet: "**Docker:** Deployment of containerized apps"
+      - bullet: "**AWS:** Design architecture using ECR, ECS, EC2, SQS, SNS, Lambdas, Step Functions, Api Gateways, etc"
+      - bullet: "**ElasticSearch:** Indexing content and making custom search features"
+      - bullet: "**Redis:** Cache and session management"
+      - bullet: "**Gitlab CI:** Linting, testing, and deployments"
+    languages:
+      - bullet: "**English**: Advanced"
+      - bullet: "**Spanish**: Native Speaker"
+      - bullet: "**German**: Intermediate"
+    awards:
+      - name: 1st place on the 5th Hackathon organized by the National Sociaty of Mining, Oil and Energy (Peru)
+        date: 2019-06
+        highlights:
+          - Distributed system for real-time air quality monitoring and early warnings for critical events.
+design:
+  theme: sb2nov
+  text:
+    # font: Charter
+    font_family: XCharter
+    # font_family: Libertinus Serif
+    # font_family: Gentium Book Plus
+    font_size: "10pt"
+    leading: "0.6em"
+    alignment: justified
+    date_and_location_column_alignment: right
+  page:
+    size: us-letter
+    top_margin: "2cm"
+    bottom_margin: "2cm"
+    left_margin: "2cm"
+    right_margin: "2cm"
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    # color: "#004f90"
+    text: rgb(0,0,0)
+    name: rgb(0,0,0)
+    connections: rgb(0,0,0)
+    section_titles: rgb(0,0,0)
+    links: rgb(0,79,144)
+    last_updated_date_and_page_numbering: rgb(128,128,128)
