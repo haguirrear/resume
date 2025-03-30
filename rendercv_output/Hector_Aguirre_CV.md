@@ -1,4 +1,4 @@
-# Hector Aguirre's CV
+# Hector Aguirre
 
 - Phone: +51 979 277 722
 - Email: [hector.aguirre.arista@gmail.com](mailto:hector.aguirre.arista@gmail.com)
