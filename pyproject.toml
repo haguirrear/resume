@@ -1,0 +1,10 @@
+[project]
+name = "cv"
+version = "0.1.0"
+authors = ["Hector Aguirre <hector.aguirre.arista@gmail.com>"]
+description = "Versioned Resume"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rendercv[full]>=2.2",
+]
