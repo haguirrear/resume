@@ -551,7 +551,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed backend features for the \"Mobility\" mobile app using Django \(Python\) and AWS.],[Implemented a broker feature to calculate insurance quotations and automated car insurance sales via the mobile app.],)
+    #v(design-highlights-top-margin);#highlights([Developed backend features for the \"Mobility\" mobile app using Django \(Python\) and AWS.],[Implemented a platform used by brokers to calculate insurance quotations and automated car insurance sales via the mobile app.],)
   ],
 )
 
@@ -761,6 +761,10 @@
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
   content: [- #strong[German]: Intermediate],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- #strong[French]: Basic],
 )
 
 

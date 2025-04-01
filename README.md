@@ -4,7 +4,7 @@ This repository hosts my Software Engineer resume. The source of my CV is mainta
 
 ## Usage
 1. **Make Edits**
-    Update the contents of `Hector_Aguirre_CV.yaml` as needed (e.g., adding new experience, refining bullet points, etc.).
+    Update the contents of `cv_en.yaml` or `cv_es.yaml`, adding new experience, refining bullet points, etc.).
 
 2. **Generate All Resume Formats**  
    Run the following command to render your CV in all available formats (HTML, MD, PDF, TeX, and PNG) in the `rendercv_output` folder:
@@ -13,7 +13,7 @@ This repository hosts my Software Engineer resume. The source of my CV is mainta
     make render
 
     # Under the hood, this invokes
-    uv run rendercv render ./Hector_Aguirre_CV.yaml
+    uv run rendercv render ./cv_en.yaml -o out/en
     ```
 
 

@@ -51,7 +51,7 @@ Software Engineer with 7+ years of experience designing and deploying cloud-base
 
 - Mar 2021 – July 2021
 - Developed backend features for the "Mobility" mobile app using Django (Python) and AWS.
-- Implemented a broker feature to calculate insurance quotations and automated car insurance sales via the mobile app.
+- Implemented a platform used by brokers to calculate insurance quotations and automated car insurance sales via the mobile app.
 
 ## German Corporation for International Cooperation GmbH (GIZ), Fullstack Developer (Consultant)
 
@@ -117,6 +117,7 @@ Software Engineer with 7+ years of experience designing and deploying cloud-base
 - **English**: Advanced
 - **Spanish**: Native Speaker
 - **German**: Intermediate
+- **French**: Basic
 # Awards
 
 ## 1st place on the 5th Hackathon organized by the National Society of Mining, Oil and Energy (Peru)

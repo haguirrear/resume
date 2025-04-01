@@ -1,0 +1,200 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/heads/main/schema.json
+
+cv:
+  name: Hector Aguirre
+  location: Lima, Perú
+  email: hector.aguirre.arista@gmail.com
+  phone: tel:+51979277722
+  # website: https://yourwebsite.com/
+  social_networks:
+    - network: LinkedIn
+      username: haguirrear
+    # - network: GitHub
+    #   username: haguirrear
+  sections:
+    summary:
+      - Ingeniero de Software con más de 7 años de experiencia diseñando e implementando aplicaciones distribuidas en la nube para clientes globales. Con un historial comprobado liderando equipos de desarrolladores en toda Latinoamérica para ofrecer soluciones de alto rendimiento utilizando Golang, Python, IaC (Terraform, CDK, SST) y AWS. Apasionado por enfrentar nuevos desafíos, con excelentes habilidades de resolución de problemas y un gran interés en el aprendizaje continuo y la innovación.
+    experience:
+      - company: Globant - Disney (ABC News)
+        position: Arquitecto de Software (Golang)
+        start_date: 2024-03
+        end_date: "present"
+        highlights:
+          - Lideré un proyecto para implementar notificaciones push en tiempo real para la aplicación móvil ABC News en la cobertura de las elecciones de EE. UU. en 2024, utilizando Golang, AWS (Lambdas, SQS, SNS) y Braze.
+          - Creé un nuevo servicio para adoptar el reproductor de video de Disney Plus en múltiples marcas de Disney (ABC News, ABC, Natgeo), integrando varios CMS y orquestando SSAI (Server-Side Ad Insertion). Desplegado en AWS con CDK y ECS.
+          - Desarrollé Lambdas en AWS para recopilar métricas de publicación, reduciendo los tiempos de publicación de historias y habilitando mejoras basadas en datos a través de un panel personalizado en Grafana.
+          - Implementé un nuevo tipo de objeto en el CMS y un endpoint de API correspondiente para habilitar páginas de inicio de “Noticias de última hora” en las marcas televisivas de Disney, ampliando las capacidades del backend de la aplicación móvil de ABC News.
+          - Realicé la migración de servicios desde Java/Groovity (un lenguaje basado en Groovy personalizado) a Golang, logrando un mejor rendimiento y mayor facilidad de despliegue en ECS con CDK.
+      - company: Crehana
+        position: Tech Lead
+        start_date: 2021-11
+        end_date: 2024-03
+        highlights:
+          - Creé una solución de SSO (Single Sign-On) configurable (SAML2/OAuth2) con Python y FastAPI, desplegada en Kubernetes, que permitió la integración segura con servicios de terceros.
+          - Desarrollé un sistema distribuido impulsado por eventos para sincronizar configuraciones de usuarios/administradores a través de tres aplicaciones, aprovechando Python, SQS, SNS, Lambdas y Step Functions.
+          - Integré Crehana con Moodle LMS para automatizar la provisión de cursos y actualizar el progreso de los usuarios utilizando servicios de AWS, mejorando la consistencia de datos y reduciendo esfuerzos manuales.
+          - Implementé una funcionalidad de búsqueda de contenido (Python, Elasticsearch, SQS, SNS, Lambdas) con enlaces protegidos por SSO y seguimiento de progreso impulsado por eventos.
+          - Creé una API REST pública con Golang, Docker y Kubernetes para integraciones personalizadas con clientes.
+          - Desarrollé múltiples microservicios que exponen APIs GraphQL mediante Python/FastAPI, asegurando backends modulares y mantenibles.
+          - Migré un proxy GraphQL personalizado a Apollo Federation, aumentando el rendimiento y la escalabilidad de la API.
+          - Establecí pipelines de CI/CD con GitLab CI para pruebas automatizadas, análisis de código y despliegue, reduciendo los tiempos de lanzamiento y mejorando la calidad.
+          - Lideré un equipo internacional de cinco desarrolladores, brindando dirección técnica, revisiones de código y mentoría para su crecimiento profesional.
+      - company: Crehana
+        position: Backend Engineer
+        start_date: 2021-08
+        end_date: 2021-11
+        highlights:
+          - Desarrollé una integración con SAP Success Factors (LMS) utilizando una arquitectura impulsada por eventos para sincronizar datos y progreso de cursos (Python, AWS Lambda, SQS, SNS, API Gateway, Terraform).
+          - Diseñé e implementé APIs GraphQL con Python (Flask, FastAPI, Django) para ofrecer un acceso más flexible y eficiente a los datos.
+      - company: MINSA (Ministerio de Salud de Perú)
+        position: Backend Engineer (Consultor)
+        start_date: 2021-06
+        end_date: 2021-08
+        highlights:
+          - Contribuí a la aplicación de atención virtual “Teleatiendo” de MINSA, permitiendo programar citas y subir recetas médicas de forma segura.
+          - Implementé la firma digital basada en el Documento Nacional de Identidad para recetas e indicaciones médicas, fortaleciendo la autenticidad de los datos.
+          - Utilicé Python, PostgreSQL y Nginx para el desarrollo del backend, desplegado en servidores locales.
+      - company: La Positiva - Digital Transformation Lab
+        position: Backend Engineer
+        start_date: 2021-03
+        end_date: 2021-07
+        highlights:
+          - Desarrollé funcionalidades de backend para la aplicación móvil “Mobility” utilizando Django (Python) y AWS.
+          - Implementé una plataforma usada por brokers para calcular cotizaciones de seguros y automatizar la venta de seguros vehiculares a través de la aplicación móvil.
+      - company: German Corporation for International Cooperation GmbH (GIZ)
+        position: Desarrollador Fullstack (Consultor)
+        start_date: 2020-12
+        end_date: 2021-03
+        highlights:
+          - Creé una aplicación móvil de entrenamiento sobre COVID-19 para el MINSA, utilizando Python (FastAPI) para el backend y Flutter para el cliente móvil.
+          - Desplegué aplicaciones contenedorizadas en AWS con Docker, Nginx y PostgreSQL, garantizando la confiabilidad para el personal médico en comunidades remotas de la selva.
+          - Implementé sincronización y almacenamiento en caché para funcionalidad fuera de línea, aumentando la accesibilidad para usuarios con conectividad limitada.
+          - Apoyé la capacitación del personal médico en la gestión de la pandemia a través de módulos interactivos de la aplicación.
+      - company: Simple Peru
+        position: Desarrollador Backend
+        start_date: 2019-12
+        end_date: 2021-02
+        highlights:
+          - Construí APIs REST (Python, Flask, PostgreSQL) para sistemas de leasing personalizados, garantizando integraciones escalables y seguras.
+          - Desarrollé una aplicación móvil en Flutter para gestionar reservas de espacios durante la pandemia de COVID-19, mejorando la seguridad de los usuarios y el cumplimiento normativo de los negocios.
+          - Implementé Docker y AWS para el despliegue fluido de soluciones de backend.
+      - company: American Glass Products (AGP)
+        position: Trainee Supplier Development Engineer
+        start_date: 2019-02
+        end_date: 2019-07
+        highlights:
+          - Apoyé a un fabricante líder de vidrio laminado para Tesla, McLaren, Volkswagen y BMW mediante la creación de análisis de BI basados en datos con Power BI.
+          - Desarrollé aplicaciones de automatización con Microsoft Power Apps y Flow, optimizando procesos internos y mejorando la eficiencia.
+      - company: Pontificia Universidad Católica del Perú (PUCP)
+        position: Practicante en el Laboratorio de Economía Experimental
+        start_date: 2018-04
+        end_date: 2018-12
+        highlights:
+          - Programé juegos experimentales en Python para recopilar datos de toma de decisiones en estudios de investigación.
+          - Administré páginas web y servidores basados en AWS para implementar experimentos de manera confiable y escalable.
+      - company: Novatronic
+        position: Practicante de Desarrollo
+        start_date: 2017-01
+        end_date: 2017-07
+        highlights:
+          - Desarrollé programas en C para la gestión de transacciones financieras.
+          - Creé una aplicación nativa de Windows con C# y SQL para procesar transacciones.
+    education:
+      - institution: Pontificia Universidad Católica del Perú (PUCP)
+        area: Ingeniería Mecatrónica
+        location: Perú
+        degree: Bachiller
+        start_date: 2013-03
+        end_date: 2018-12
+      - institution: Universität Duisburg-Essen
+        area: Elektrotechnik und Informationstechnik
+        location: Alemania
+        degree: Programa de Intercambio
+        start_date: 2017-06
+        end_date: 2018-03
+    skills:
+      - bullet: "**Go:** Aplicaciones web y utilidades de línea de comando"
+      - bullet: "**Python:** APIs REST y GraphQL (Flask, FastAPI, Django)"
+      - bullet: "**JavaScript/TypeScript:** APIs REST usando Node.js, además de desarrollo frontend con React y Solid"
+      - bullet: "**C:** APIs y sistemas embebidos"
+      - bullet: "**Dart:** Aplicaciones móviles con Flutter"
+      - bullet: "**Terraform:** Despliegue de servicios usando IaC"
+      - bullet: "**SQL:** PostgreSQL, MySQL"
+      - bullet: "**Docker:** Despliegue de aplicaciones contenedorizadas"
+      - bullet: "**AWS:** Diseño de arquitectura con ECR, ECS, EC2, SQS, SNS, Lambdas, Step Functions, API Gateways, etc."
+      - bullet: "**Elasticsearch:** Indexación de contenido y creación de funcionalidades de búsqueda personalizadas"
+      - bullet: "**Redis:** Gestión de caché y sesiones"
+      - bullet: "**GitLab CI:** Análisis, pruebas y despliegues automatizados"
+    languages:
+      - bullet: "**Inglés**: Avanzado"
+      - bullet: "**Español**: Nativo"
+      - bullet: "**Alemán**: Intermedio"
+      - bullet: "**Francés**: Básico"
+    awards:
+      - name: 1er puesto en la 5ta Hackathon organizada por la Sociedad Nacional de Minería, Petróleo y Energía (Perú)
+        date: 2019-06
+        highlights:
+          - Sistema distribuido para monitoreo de calidad del aire en tiempo real y alertas tempranas para eventos críticos.
+locale:
+  language: es
+  page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
+  last_updated_date_template: Última actualización TODAY
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: actualidad
+  to: –
+  abbreviations_for_months: 
+    - En
+    - Feb
+    - Mar
+    - Abr
+    - May
+    - Jun
+    - Jul
+    - Ago
+    - Sep
+    - Oct
+    - Nov
+    - Dic
+  full_names_of_months: 
+    - Enero
+    - Febrero
+    - Marzo
+    - Abril
+    - Mayo
+    - Junio
+    - Julio
+    - Agosto
+    - Septiembre
+    - Octubre
+    - Noviembre
+    - Diciembre
+  
+design:
+  theme: sb2nov
+  text:
+    font_family: XCharter
+    # font_family: Libertinus Serif
+    # font_family: Gentium Book Plus
+    font_size: "10pt"
+    leading: "0.6em"
+    alignment: justified
+    date_and_location_column_alignment: right
+  page:
+    size: us-letter
+    top_margin: "2cm"
+    bottom_margin: "2cm"
+    left_margin: "2cm"
+    right_margin: "2cm"
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    # color: "#004f90"
+    text: rgb(0,0,0)
+    name: rgb(0,0,0)
+    connections: rgb(0,0,0)
+    section_titles: rgb(0,0,0)
+    links: rgb(0,79,144)
+    last_updated_date_and_page_numbering: rgb(128,128,128)

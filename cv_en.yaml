@@ -60,7 +60,7 @@ cv:
         end_date: 2021-07
         highlights:
           - Developed backend features for the "Mobility" mobile app using Django (Python) and AWS.
-          - Implemented a broker feature to calculate insurance quotations and automated car insurance sales via the mobile app.
+          - Implemented a platform used by brokers to calculate insurance quotations and automated car insurance sales via the mobile app.
       - company: German Corporation for International Cooperation GmbH (GIZ)
         position: Fullstack Developer (Consultant)
         start_date: 2020-12
@@ -129,6 +129,7 @@ cv:
       - bullet: "**English**: Advanced"
       - bullet: "**Spanish**: Native Speaker"
       - bullet: "**German**: Intermediate"
+      - bullet: "**French**: Basic"
     awards:
       - name: 1st place on the 5th Hackathon organized by the National Society of Mining, Oil and Energy (Peru)
         date: 2019-06
