@@ -3,7 +3,7 @@
 
 #let name = "Hector Aguirre"
 #let locale-catalog-page-numbering-style = context { "Hector Aguirre - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Mar 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Aug 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -475,7 +475,7 @@
   left-content: [
     #strong[Software Architect \(Golang\)]
 
-#emph[Globant - Disney \(ABC News\)]
+#emph[Disney \(ABC News\) - Contractor through Globant]
   ],
   right-content: [
     #emph[Mar 2024 – present]
@@ -483,7 +483,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led a project to implement real-time push notifications for the ABC News Mobile App covering the 2024 U.S. elections, utilizing Golang, AWS \(Lambdas, SQS, SNS\), and Braze.],[Created a new service to adopt the Disney Plus Video Player across multiple Disney brands \(ABC News, ABC, Natgeo\), integrating various CMSs and orchestrating SSAI \(Server-Side Ad Insertion\). Deployed in AWS using CDK and ECS.],[Built AWS Lambdas to gather publishing metrics, reducing story publication times and enabling data-driven improvements via a custom Grafana dashboard.],[Developed a new CMS object type and corresponding API endpoint to enable “Breaking News” homepages for Disney's Owned TV Brands, extending the ABC News mobile app’s backend capabilities.],[Migrated services from Java\/Groovity \(a custom Groovy-based language\) to Golang, achieving improved performance and deployability on ECS with CDK.],)
+    #v(design-highlights-top-margin);#highlights([Created a custom lexer and parser for new shortcodes that editors use to embed media \(such as videos, images, and more\) in articles. We validate, parse, and translate those shortcodes into the actual media when serving the story to the webpage or mobile apps.],[Led a project to implement real-time push notifications for the ABC News Mobile App covering the 2024 U.S. elections, utilizing Golang, AWS \(Lambdas, SQS, SNS\), and Braze.],[Created a new service to adopt the Disney Plus Video Player across multiple Disney brands \(ABC News, ABC, Natgeo\), integrating various CMSs and orchestrating SSAI \(Server-Side Ad Insertion\). Deployed in AWS using CDK and ECS.],[Built AWS Lambdas to gather publishing metrics, reducing story publication times and enabling data-driven improvements via a custom Grafana dashboard.],[Developed a new CMS object type and corresponding API endpoint to enable “Breaking News” homepages for Disney's Owned TV Brands, extending the ABC News mobile app’s backend capabilities.],[Migrated services from Java\/Groovity \(a custom Groovy-based language\) to Golang, achieving improved performance and deployability on ECS with CDK.],)
   ],
 )
 
@@ -708,7 +708,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #strong[JavaScript\/TypeScript:] REST APIs using Node.js, plus frontend development with React and Solid],
+  content: [- #strong[JavaScript\/TypeScript:] REST APIs using Node.js, and frontend development with React and Solid],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -716,7 +716,11 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #strong[Dart:] Mobile apps with Flutter],
+  content: [- #strong[C\#:] Windows native apps],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- #strong[Dart:] iOS and Android mobile apps with Flutter],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -724,11 +728,19 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #strong[SQL:] PostgreSQL, MySQL],
+  content: [- #strong[AWS CDK:] Deploy services using IaC],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #strong[Docker:] Deployment of containerized apps],
+  content: [- #strong[SQL:] PostgreSQL, MySQL, SQL Server],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- #strong[DynamoDB:] usage in serverless applications],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- #strong[Docker:] Containerization and deployment of web apps],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -744,7 +756,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #strong[GitLab CI:] Linting, testing, and deployments],
+  content: [- #strong[GitLab CI:] Building pipelines for Linting, testing, and deploying applications],
 )
 
 

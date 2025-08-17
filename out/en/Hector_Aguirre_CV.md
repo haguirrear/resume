@@ -12,9 +12,10 @@ Software Engineer with 7+ years of experience designing and deploying cloud-base
 
 # Experience
 
-## Globant - Disney (ABC News), Software Architect (Golang)
+## Disney (ABC News) - Contractor through Globant, Software Architect (Golang)
 
 - Mar 2024 – present
+- Created a custom lexer and parser for new shortcodes that editors use to embed media (such as videos, images, and more) in articles. We validate, parse, and translate those shortcodes into the actual media when serving the story to the webpage or mobile apps.
 - Led a project to implement real-time push notifications for the ABC News Mobile App covering the 2024 U.S. elections, utilizing Golang, AWS (Lambdas, SQS, SNS), and Braze.
 - Created a new service to adopt the Disney Plus Video Player across multiple Disney brands (ABC News, ABC, Natgeo), integrating various CMSs and orchestrating SSAI (Server-Side Ad Insertion). Deployed in AWS using CDK and ECS.
 - Built AWS Lambdas to gather publishing metrics, reducing story publication times and enabling data-driven improvements via a custom Grafana dashboard.
@@ -102,16 +103,19 @@ Software Engineer with 7+ years of experience designing and deploying cloud-base
 
 - **Go:** Web Apps and CLI utilities
 - **Python:** REST and GraphQL APIs (Flask, FastAPI, Django)
-- **JavaScript/TypeScript:** REST APIs using Node.js, plus frontend development with React and Solid
+- **JavaScript/TypeScript:** REST APIs using Node.js, and frontend development with React and Solid
 - **C:** APIs and embedded systems
-- **Dart:** Mobile apps with Flutter
+- **C#:** Windows native apps
+- **Dart:** iOS and Android mobile apps with Flutter
 - **Terraform:** Deploy services using IaC
-- **SQL:** PostgreSQL, MySQL
-- **Docker:** Deployment of containerized apps
+- **AWS CDK:** Deploy services using IaC
+- **SQL:** PostgreSQL, MySQL, SQL Server
+- **DynamoDB:** usage in serverless applications
+- **Docker:** Containerization and deployment of web apps
 - **AWS:** Architecture design with ECR, ECS, EC2, SQS, SNS, Lambdas, Step Functions, API Gateways, etc.
 - **Elasticsearch:** Indexing content and building custom search features
 - **Redis:** Cache and session management
-- **GitLab CI:** Linting, testing, and deployments
+- **GitLab CI:** Building pipelines for Linting, testing, and deploying applications
 # Languages
 
 - **English**: Advanced

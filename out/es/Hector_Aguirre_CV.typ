@@ -3,7 +3,7 @@
 
 #let name = "Hector Aguirre"
 #let locale-catalog-page-numbering-style = context { "Hector Aguirre - Página " + str(here().page()) + " de " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Última actualización Mar 2025"
+#let locale-catalog-last-updated-date-style = "Última actualización Ago 2025"
 #let locale-catalog-language = "es"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em

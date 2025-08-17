@@ -15,11 +15,12 @@ cv:
     summary:
       - Software Engineer with 7+ years of experience designing and deploying cloud-based, distributed applications for global clients. Proven track record leading teams of developers across LATAM to deliver high-performing solutions using Golang, Python, IaC (Terraform, CDK, SST), and AWS. Enthusiastic about tackling new challenges, with exceptional problem-solving skills and a passion for continuous learning and innovation.
     experience:
-      - company: Globant - Disney (ABC News)
+      - company: Disney (ABC News) - Contractor through Globant
         position: Software Architect (Golang)
         start_date: 2024-03
         end_date: "present"
         highlights:
+          - Created a custom lexer and parser for new shortcodes that editors use to embed media (such as videos, images, and more) in articles. We validate, parse, and translate those shortcodes into the actual media when serving the story to the webpage or mobile apps.
           - Led a project to implement real-time push notifications for the ABC News Mobile App covering the 2024 U.S. elections, utilizing Golang, AWS (Lambdas, SQS, SNS), and Braze.
           - Created a new service to adopt the Disney Plus Video Player across multiple Disney brands (ABC News, ABC, Natgeo), integrating various CMSs and orchestrating SSAI (Server-Side Ad Insertion). Deployed in AWS using CDK and ECS.
           - Built AWS Lambdas to gather publishing metrics, reducing story publication times and enabling data-driven improvements via a custom Grafana dashboard.
@@ -115,16 +116,19 @@ cv:
     skills:
       - bullet: "**Go:** Web Apps and CLI utilities"
       - bullet: "**Python:** REST and GraphQL APIs (Flask, FastAPI, Django)"
-      - bullet: "**JavaScript/TypeScript:** REST APIs using Node.js, plus frontend development with React and Solid"
+      - bullet: "**JavaScript/TypeScript:** REST APIs using Node.js, and frontend development with React and Solid"
       - bullet: "**C:** APIs and embedded systems"
-      - bullet: "**Dart:** Mobile apps with Flutter"
+      - bullet: "**C#:** Windows native apps"
+      - bullet: "**Dart:** iOS and Android mobile apps with Flutter"
       - bullet: "**Terraform:** Deploy services using IaC"
-      - bullet: "**SQL:** PostgreSQL, MySQL"
-      - bullet: "**Docker:** Deployment of containerized apps"
+      - bullet: "**AWS CDK:** Deploy services using IaC"
+      - bullet: "**SQL:** PostgreSQL, MySQL, SQL Server"
+      - bullet: "**DynamoDB:** usage in serverless applications"
+      - bullet: "**Docker:** Containerization and deployment of web apps"
       - bullet: "**AWS:** Architecture design with ECR, ECS, EC2, SQS, SNS, Lambdas, Step Functions, API Gateways, etc."
       - bullet: "**Elasticsearch:** Indexing content and building custom search features"
       - bullet: "**Redis:** Cache and session management"
-      - bullet: "**GitLab CI:** Linting, testing, and deployments"
+      - bullet: "**GitLab CI:** Building pipelines for Linting, testing, and deploying applications"
     languages:
       - bullet: "**English**: Advanced"
       - bullet: "**Spanish**: Native Speaker"
